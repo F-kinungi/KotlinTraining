@@ -1,0 +1,103 @@
+Kotlin class
+
+kotlin class is similar to java class and its declared using class keyword
+kotlin class has class header which specifies its type parameters, constructor
+
+syntax
+
+class className { //class header
+ //property
+ //member function
+}
+in kotlin, property must be initialized or declared as abstract
+
+kotlin object
+object is real time entity or may be a logical entity which jas state and behavior.
+it has the following charateristics
+
+state- it represent value of an object
+behavior- it represent the functionality of an object
+object is used to access the properties and memebr function of a class.
+kotlin allows create multiple object of a class
+
+create an object
+var obj1 = className()
+var obj2 = className()
+here obj1 and obj2 are reference amd className() is an object
+
+Access class property and member function
+properties and member function of class are accessed by.
+operator using object
+
+for example
+obj1.deposit()
+obj1.name = Ajey
+
+
+
+Kotlin Nested class and inner class
+
+Nested class is such a class which is created inside another class.
+in kotlin, nested class is by default STATIC, so its data member and
+member function can be accessed without creating an object of class.
+Nested class cannot be able to access the data member of outer class
+
+class outerClass {
+
+class nestedClass{
+// data member and member function does not require object of a class
+// because this class is static by default
+
+
+}
+
+}
+
+The advantage of inner class over nested class is that, it is able to access member of outer class even it is private
+Inner class keeps a reference to an object of outer classs
+
+
+constructor is used to initialize class variables
+Types of kotlin constructors
+There are two types of constructor in kotlin
+
+    1.primary constructor
+    2. Secondary constructor
+ There is only one primary constructor in kotlin class whereas
+ secondary constructor may be one or more
+
+ primary constructor is used to initialize the class. It is declared at class
+ header.primary constructor code.
+
+ let see example
+
+ class myclass(valName:String, varId:Int) {
+
+ //perimeter name is read only and id is read and write
+
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

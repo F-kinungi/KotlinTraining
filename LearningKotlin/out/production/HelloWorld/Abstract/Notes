@@ -1,0 +1,10 @@
+
+
+Abstract in kotlin
+
+1. In kotlin an abstract class cannot be instantiated, meaning you cannot create object of the abstract class
+2. In kotlin, the members(properties and functions) of abstract class
+are non-abstract unless you explicitly use abstract keyword
+
+Note: Abstract classes are always open. You do not need to explicitly
+use open keyword to inherit subclasses from them.
